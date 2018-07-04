@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartBezerActivity"
+        android:text="贝塞尔曲线"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartBubbleActivity"
+        android:text="QQ未读信息气泡效果"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onStartChargingActivity"
+        android:text="水波浪充电效果"
+        android:layout_marginTop="5dp"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+
+
+</LinearLayout>

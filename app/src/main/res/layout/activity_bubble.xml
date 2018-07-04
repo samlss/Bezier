@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <com.iigo.bezier.FunnyBubbleView
+        android:id="@+id/fbv_bubble"
+        app:text="99+"
+        app:radius="15dp"
+        app:textColor="#ffffffff"
+        app:textSize="15dp"
+        app:color="#FFFF0000"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:onClick="onReset"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
