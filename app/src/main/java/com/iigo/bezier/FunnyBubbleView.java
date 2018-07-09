@@ -452,7 +452,7 @@ public class FunnyBubbleView extends View {
         }
 
         if (movableBubbleDisappearAnimator != null){
-            movableBubbleReboundAnimator.cancel();
+            movableBubbleDisappearAnimator.cancel();
         }
 
         initSize(getWidth(), getHeight()); //重新设置圆心坐标
